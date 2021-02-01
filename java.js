@@ -91,16 +91,4 @@ else{
 confirm("Toutes les données sont validées !, Voulez-vous les envoyer au serveur?");
 }
 }
-function validated(){
-	var NOM = document.forms['login']['username'];
-	var password = document.forms['login']['password'];
 
-	var user-error = document.getElementById('user-error');
-	var pass-error = document.getElementById('pass-error');
- if (email.value.legth < 9) {
- 	email.style.border = "1px solid red";
- 	user-error.style.display = "block";
- 	email.focus();
- 	return false;
- }
-}
